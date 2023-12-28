@@ -20,89 +20,69 @@ import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Bhaskar Purohit",
+  initials: "BP",
+  location: "Pune, Maharashtra, IN",
+  locationLink: "https://www.google.com/maps/place/Pune",
   about:
     "Full Stack Engineer focused on building products with extra attention to details",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 2 years of experience in working with companies with clients from all around the world.",
+  avatarUrl: "https://photos.wellfound.com/users/14216607-medium_jpg?1652443943",
+  personalWebsiteUrl: "https://bejewelled-pastelito-7d8cf9.netlify.app/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "bhaskarpurohit22@gmail.com",
+    tel: "+919509627038",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/BhaskarPurohit",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/bhaskar-purohit-64895217b/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/BhaskarP57559",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Rajasthan Technical University",
+      degree: "Bachelor of Technology",
+      start: "2016",
+      end: "2020",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Capgemini",
+      link: "https://capgemini.com",
+      badges: ["Full Time"],
+      title: "Full Stack Developer",
       logo: ParabolLogo,
       start: "2021",
-      end: "2024",
+      end: "2023",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "iNeuron.ai",
+      link: "https://ineuron.ai/",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      title: "Intern → Full Stack Developer",
+      // logo: ClevertechLogo,
+      start: "2021",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Worked as a fullstack developer intern. Created fully functional youtube clone where users can log in and stream videos. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
     },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
+   
   ],
   skills: [
     "JavaScript",
@@ -112,10 +92,13 @@ export const RESUME_DATA = {
     "GraphQL",
     "Relay",
     "WebRTC",
+    "MongoDB",
+    "ExpressJS",
+    "Web socket"
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Twitter Clone",
       techStack: [
         "Side Project",
         "TypeScript",
@@ -124,7 +107,7 @@ export const RESUME_DATA = {
         "GraphQL",
         "WebRTC",
       ],
-      description: "A platform to build and grow your online business",
+      description: "A clone of twitter based on Next js. End to End implementaion and optimization. Deployed the containerized app via Kubernetes.",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
@@ -132,10 +115,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Monito",
+      title: "Paytm Clone",
       techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Fully responsive clone of paytm.",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
@@ -143,10 +126,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Jarocki.me",
+      title: "Google Meet Clone",
       techStack: ["Side Project", "Next.js", "MDX"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Google Meet Clone. Built with Next.js and Notion API",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
